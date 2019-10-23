@@ -1,0 +1,21 @@
+clouds:
+  test_cloud:
+    region_name: RegionOne
+    auth:
+      auth_url: http://192.168.0.18:5000/v3
+      username: admin
+      password: ahKieng2cuhul7Cu
+      project_name: admin
+      user_domain_id: default
+      project_domain_id: default
+    example:
+      image_name: fedora-20.x86_64
+      flavor_name: m1.small
+      network_name: private
+  rackspace:
+    cloud: rackspace
+    auth:
+      username: joe
+      password: joes-password
+      project_name: 123123
+    region_name: IAD
